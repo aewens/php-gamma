@@ -1,0 +1,12 @@
+html, body {
+    background: #f8f8f8;
+}
+
+#app {
+    width: 960px;
+    margin: 10px auto;
+}
+canvas {
+    margin: 0 80px;
+    box-shadow: 0px 6px 24px -6px rgba(0,0,0,0.3);
+}
