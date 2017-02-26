@@ -1,0 +1,11 @@
+{
+  "name": "php-gamma",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": null,
+    "requirejs": null,
+    "bootstrap": null,
+    "backbone": null,
+    "underscore": null
+  }
+}
