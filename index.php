@@ -55,7 +55,7 @@ if (isset($_GET["p"])) {
 </head>
 <body>
     <div id="app">
-        <?php print_r($pageHTML); ?>
+        <?php echo $pageHTML; ?>
     </div>
     <script src="vendor/jquery/dist/jquery.min.js"></script>
     <script src="vendor/underscore/underscore-min.js"></script>
