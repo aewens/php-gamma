@@ -4,5 +4,7 @@ define([], function() {
     $canvas.setAttribute("width", cmodel["width"]);
     $canvas.setAttribute("height", cmodel["height"]);
     
+    $canvas.classList.add("visible");
+    
     return [$canvas, $canvas.getContext("2d")];
 });
