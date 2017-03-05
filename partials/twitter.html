@@ -1,0 +1,24 @@
+<div id="twitter">
+    <form id="new-tweet">
+        <label for="author">Author: </label>
+        <input type="text" id="author" name="author" autofocus="">
+        <label for="status">Status: </label>
+        <input type="text" id="status" name="status">
+        <input type="submit" value="Tweet">
+    </form>
+    <hr>
+    <div id="tweets-container">
+        [tweets go here]
+    </div>
+    <hr>
+    <footer>&copy; 2017 Austin Ewens</footer>
+</div>
+
+<script type="text/template" id="tweet-tmpl">
+    <span class="author"><%= author %>: </span>
+    <span class="status"><%= status %></span>
+    &nbsp;&nbsp;&nbsp;
+    <span class="glyphicon glyphicon-pencil edit"></span>
+    &nbsp;
+    <span class="glyphicon glyphicon-remove delete"></span>
+</script>

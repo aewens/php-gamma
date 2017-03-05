@@ -1,0 +1,33 @@
+html, body {
+    background: #f8f8f8;
+}
+
+#app {
+    width: 960px;
+    margin: 10px auto;
+    background: #fff;
+    box-shadow: 0px 6px 24px -6px rgba(0,0,0,0.3);
+    overflow: auto;
+}
+
+#twitter {
+    width: 80%;
+    margin: 20px 10%;
+}
+
+#tweets-container {
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.tweet {
+    margin-bottom: 20px;
+}
+
+.tweet .author {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
