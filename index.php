@@ -47,7 +47,7 @@ if (isset($_GET["p"])) {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Project Gamma</title>
+    <title>Project Gamma | <?php echo ucfirst($page); ?></title>
     <link rel="stylesheet" 
         href="vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" 
