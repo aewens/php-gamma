@@ -25,7 +25,7 @@ if (isset($_GET["p"])) {
     $hasCSS = file_exists("stylesheets/" . $page . ".css");
     $hasHTML = file_exists("partials/" . $page . ".html");
     $hasPHP = file_exists("models/" . $page . ".php");
-    if ($hasJS && $hasCSS && $hasHTML) {
+    if ($hasJS && $hasCSS && $hasHTML && $hasPHP) {
         $pageJS = $page;
         $pageCSS = $page;
         $pagePHP = "models/" . $page . ".php";
@@ -36,9 +36,11 @@ if (isset($_GET["p"])) {
         $pageHTML = "";
     }
 } else {
+    $page = "main";
     $pageJS = "main";
     $pageCSS = "main";
-    $pageHTML = "";
+    $pagePHP = "models/main.php";
+    $pageHTML = render("partials/main.html", $pagePHP);
 }
 
 ?>

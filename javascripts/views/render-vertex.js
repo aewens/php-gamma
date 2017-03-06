@@ -1,5 +1,5 @@
 define([
-    "dom/canvas",
+    "modules/canvas",
     "collections/vertices",
     "models/vertex"
 ], function(canvas, Vertices, Vertex) {
